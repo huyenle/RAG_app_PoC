@@ -1,0 +1,19 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.13.0",
+    "google-generativeai>=0.8.6",
+    "lightrag-hku>=1.4.15",
+    "nest-asyncio>=1.6.0",
+    "ollama>=0.6.2",
+    "openai>=2.34.0",
+    "pypdf2>=3.0.1",
+    "sentence-transformers>=5.1.2",
+    "streamlit>=1.50.0",
+    "torchvision>=0.26.0",
+]
