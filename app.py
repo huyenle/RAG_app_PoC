@@ -1,15 +1,17 @@
 import streamlit as st
 
-from rag import BasicRAGAdapter, LightRAGAdapter
+from rag import BasicRAGAdapter, LightRAGAdapter, AutoLightRAGAdapter
 
 RAG_OPTIONS = {
     "Basic RAG (FAISS)": BasicRAGAdapter,
     "Graph RAG (LightRAG)": LightRAGAdapter,
+    "Auto RAG (Smart)": AutoLightRAGAdapter,
 }
 
 RAG_ICONS = {
     "BasicRAGAdapter": "🔍",
     "LightRAGAdapter": "🕸️",
+    "AutoLightRAGAdapter": "🧠",
 }
 
 st.set_page_config(page_title="PDF RAG Chatbot", page_icon="📄")
