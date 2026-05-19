@@ -7,6 +7,11 @@ RAG_OPTIONS = {
     "Graph RAG (LightRAG)": LightRAGAdapter,
 }
 
+RAG_ICONS = {
+    "BasicRAGAdapter": "🔍",
+    "LightRAGAdapter": "🕸️",
+}
+
 st.set_page_config(page_title="PDF RAG Chatbot", page_icon="📄")
 st.title("📄 PDF RAG Chatbot")
 
@@ -67,7 +72,8 @@ with st.sidebar:
 
 # --- Chat ---
 for msg in st.session_state["messages"]:
-    with st.chat_message(msg["role"]):
+    icon = msg.get("icon")
+    with st.chat_message(msg["role"], avatar=icon):
         st.markdown(msg["content"])
 
 if prompt := st.chat_input("Ask a question about your document"):
@@ -77,11 +83,19 @@ if prompt := st.chat_input("Ask a question about your document"):
 
     if "selected_doc" not in st.session_state or not st.session_state["adapters"]:
         response = "Please upload and process a PDF first."
+        elapsed = 0
     else:
+        import time
         doc_name = st.session_state["selected_doc"]
         rag_adapter = st.session_state["adapters"][doc_name]
+        start = time.time()
         response = rag_adapter.query(prompt)
+        elapsed = time.time() - start
 
-    st.session_state["messages"].append({"role": "assistant", "content": response})
-    with st.chat_message("assistant"):
+    adapter_name = type(rag_adapter).__name__ if "rag_adapter" in dir() else ""
+    icon = RAG_ICONS.get(adapter_name, "🤖")
+    st.session_state["messages"].append({"role": "assistant", "content": response, "icon": icon})
+    with st.chat_message("assistant", avatar=icon):
         st.markdown(response)
+        if elapsed:
+            st.caption(f"Response time: {elapsed:.1f}s")
