@@ -5,18 +5,17 @@ from openai import OpenAI
 
 load_dotenv()
 
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "ollama")
 
-
-def get_llm_client() -> OpenAI:
-    if LLM_PROVIDER == "openai":
+def get_llm_client(provider=None) -> OpenAI:
+    provider = provider or os.getenv("LLM_PROVIDER", "ollama")
+    if provider == "openai":
         return OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-    elif LLM_PROVIDER == "anthropic":
+    elif provider == "anthropic":
         return OpenAI(
             base_url="https://api.anthropic.com/v1/",
             api_key=os.getenv("ANTHROPIC_API_KEY"),
         )
-    elif LLM_PROVIDER == "gemini":
+    elif provider == "gemini":
         return OpenAI(
             base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
             api_key=os.getenv("GEMINI_API_KEY"),
@@ -28,22 +27,23 @@ def get_llm_client() -> OpenAI:
         )
 
 
-def get_model_name() -> str:
-    if LLM_PROVIDER == "openai":
+def get_model_name(provider=None) -> str:
+    provider = provider or os.getenv("LLM_PROVIDER", "ollama")
+    if provider == "openai":
         return os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-    elif LLM_PROVIDER == "anthropic":
+    elif provider == "anthropic":
         return os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
-    elif LLM_PROVIDER == "gemini":
+    elif provider == "gemini":
         return os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
     return os.getenv("OLLAMA_MODEL", "llama3")
 
 
-def ask_llm(question: str, context_chunks: list[str]) -> str:
-    client = get_llm_client()
+def ask_llm(question: str, context_chunks: list[str], provider=None) -> str:
+    client = get_llm_client(provider)
     context = "\n\n---\n\n".join(context_chunks)
 
     response = client.chat.completions.create(
-        model=get_model_name(),
+        model=get_model_name(provider),
         messages=[
             {
                 "role": "system",

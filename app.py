@@ -1,16 +1,17 @@
+import os
 import streamlit as st
 
-from rag import BasicRAGAdapter, LightRAGAdapter, AutoLightRAGAdapter
+from rag import BasicRAGAdapter, AutoLightRAGAdapter, CachedRAGAdapter
 
 RAG_OPTIONS = {
     "Basic RAG (FAISS)": BasicRAGAdapter,
-    "Graph RAG (LightRAG)": LightRAGAdapter,
-    "Auto RAG (Smart)": AutoLightRAGAdapter,
+    # "Graph RAG (LightRAG)": LightRAGAdapter,
+    "Auto RAG (LightRAG)": AutoLightRAGAdapter,
 }
 
 RAG_ICONS = {
     "BasicRAGAdapter": "🔍",
-    "LightRAGAdapter": "🕸️",
+    # "LightRAGAdapter": "🕸️",
     "AutoLightRAGAdapter": "🧠",
 }
 
@@ -27,6 +28,12 @@ if "messages" not in st.session_state:
 with st.sidebar:
     st.header("Settings")
     rag_choice = st.selectbox("RAG method", list(RAG_OPTIONS.keys()))
+    llm_provider = st.selectbox("LLM Provider", [
+        "ollama",
+        "gemini",
+        # "openai",
+        # "anthropic",
+    ])
 
     st.divider()
     st.header("Upload PDFs")
@@ -43,7 +50,7 @@ with st.sidebar:
                 f.write(uploaded.getbuffer())
 
             with st.spinner(f"Processing {uploaded.name}..."):
-                new_adapter = adapter_class()
+                new_adapter = CachedRAGAdapter(adapter_class(provider=llm_provider))
                 new_adapter.index_document(path)
                 st.session_state["adapters"][uploaded.name] = new_adapter
             new_count += 1
@@ -60,15 +67,30 @@ with st.sidebar:
         selected_doc = st.selectbox("Select document to query", doc_names)
         st.session_state["selected_doc"] = selected_doc
         adapter = st.session_state["adapters"][selected_doc]
-        st.caption(f"Using: {type(adapter).__name__}")
+        st.caption(f"Using: {type(adapter._adapter).__name__}")
         if st.button("Reprocess selected document"):
             with st.spinner(f"Reprocessing {selected_doc}..."):
                 path = f"/tmp/{selected_doc}"
-                adapter = RAG_OPTIONS[rag_choice]()
+                adapter = CachedRAGAdapter(RAG_OPTIONS[rag_choice](provider=llm_provider))
                 adapter.index_document(path)
                 st.session_state["adapters"][selected_doc] = adapter
             st.success(f"Reprocessed {selected_doc}.")
             st.rerun()
+        if st.button("Clear cache"):
+            adapter._cache.clear()
+            st.success(f"Cache cleared for {selected_doc}.")
+
+    st.divider()
+    if st.button("Clear all indexes"):
+        import shutil
+        for d in ["vector_store", "lightrag_store_ollama", "lightrag_store_gemini", "lightrag_store_openai"]:
+            if os.path.exists(d):
+                shutil.rmtree(d)
+        st.session_state["adapters"].clear()
+        st.session_state["messages"].clear()
+        st.session_state.pop("selected_doc", None)
+        st.success("All indexes cleared.")
+        st.rerun()
     else:
         st.info("Upload and process a PDF to get started.")
 
@@ -94,7 +116,7 @@ if prompt := st.chat_input("Ask a question about your document"):
         response = rag_adapter.query(prompt)
         elapsed = time.time() - start
 
-    adapter_name = type(rag_adapter).__name__ if "rag_adapter" in dir() else ""
+    adapter_name = type(rag_adapter._adapter).__name__ if "rag_adapter" in dir() else ""
     icon = RAG_ICONS.get(adapter_name, "🤖")
     st.session_state["messages"].append({"role": "assistant", "content": response, "icon": icon})
     with st.chat_message("assistant", avatar=icon):

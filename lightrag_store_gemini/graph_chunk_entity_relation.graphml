@@ -1,0 +1,1909 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Bernardo Marelis">
+      <data key="d0">Bernardo Marelis</data>
+      <data key="d1">person</data>
+      <data key="d2">A teacher at Newton College who co-leads the Autosportklas.&lt;SEP&gt;Bernardo Marelis is an individual associated with the autosportklas who shares insights on what makes the program educational.&lt;SEP&gt;A teacher at Newton College who leads the Autosportklas alongside Kate Bitar.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Kate Bitar">
+      <data key="d0">Kate Bitar</data>
+      <data key="d1">person</data>
+      <data key="d2">A teacher at Newton College who co-leads the Autosportklas alongside Bernardo Marelis.&lt;SEP&gt;Kate Bitar is an individual involved with the autosportklas trajectory, facing challenges related to its setup, financing, or student recruitment.&lt;SEP&gt;A teacher at Newton College who leads the Autosportklas and highlights the financial challenges of maintaining the program.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Defensie">
+      <data key="d0">Defensie</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Dutch Ministry of Defense, which is a potential career path for technical students.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Autosportklas">
+      <data key="d0">Autosportklas</data>
+      <data key="d1">concept</data>
+      <data key="d2">An elite, year-long practical track at Newton College focusing on race car maintenance and competition weekends.&lt;SEP&gt;Autosportklas is a specialized educational and training trajectory focused on motorsport, offered at Newton College.&lt;SEP&gt;A highly selective, practical automotive racing class for excellent technical students, also referred to as the raceklas.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Newton College">
+      <data key="d0">Newton College</data>
+      <data key="d1">organization</data>
+      <data key="d2">An educational institution that offers a specialized autosport class for top automotive engineering students.&lt;SEP&gt;Newton College is an educational institution that hosts the autosportklas program.&lt;SEP&gt;The school that hosts, partially funds, and uses the Autosportklas as its promotional showcase.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Abel">
+      <data key="d0">Abel</data>
+      <data key="d1">person</data>
+      <data key="d2">A 17-year-old student participating in the Autosportklas who aspires to work in the racing industry.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Hussam">
+      <data key="d0">Hussam</data>
+      <data key="d1">person</data>
+      <data key="d2">An 18-year-old student who upgraded his education level to qualify for the Autosportklas.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Lauren Ramos">
+      <data key="d0">Lauren Ramos</data>
+      <data key="d1">person</data>
+      <data key="d2">Lauren Ramos is the education manager of the autosportklas who aims to make structural improvements to the training trajectory.&lt;SEP&gt;The training manager of Sector Techniek &amp; Vormgeving who seeks to expand and develop the Autosportklas program.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Sector Techniek &amp; Vormgeving">
+      <data key="d0">Sector Techniek &amp; Vormgeving</data>
+      <data key="d1">organization</data>
+      <data key="d2">The technical and design educational department managed by Lauren Ramos.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Opleiding Motorvoertuigentechniek">
+      <data key="d0">Opleiding Motorvoertuigentechniek</data>
+      <data key="d1">concept</data>
+      <data key="d2">The vocational automotive engineering program that hosts the specialized Autosportklas.&lt;SEP&gt;The standard motor vehicle technology curriculum where Autosportklas students reintegrate after their racing year.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Engeland">
+      <data key="d0">Engeland</data>
+      <data key="d1">location</data>
+      <data key="d2">England, visited by students for educational excursions to major racing brands and home to Europe's only higher vocational race mechanic program.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Keulen">
+      <data key="d0">Keulen</data>
+      <data key="d1">location</data>
+      <data key="d2">Cologne, a German city where Autosportklas students go on excursions to the motor exhibition.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Proflex">
+      <data key="d0">Proflex</data>
+      <data key="d1">organization</data>
+      <data key="d2">A manufacturing company specializing in shock absorbers that hosts student excursions and provides guest lectures.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Parijs-Dakar">
+      <data key="d0">Parijs-Dakar</data>
+      <data key="d1">event</data>
+      <data key="d2">The Paris-Dakar rally, an international off-road motorsport race for which Proflex supplies parts.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Tilburg">
+      <data key="d0">Tilburg</data>
+      <data key="d1">location</data>
+      <data key="d2">A Dutch city where an autosport class has been operating since 1988.&lt;SEP&gt;The city where guest lectures from industry specialists are hosted.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="M-Sport">
+      <data key="d0">M-Sport</data>
+      <data key="d1">organization</data>
+      <data key="d2">A prominent motorsport brand and team visited by Autosportklas students during their educational excursions to England.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Prodrive">
+      <data key="d0">Prodrive</data>
+      <data key="d1">organization</data>
+      <data key="d2">An advanced motorsport and engineering group known for building Le Mans race cars, visited by Autosportklas students during their trips to England.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470663</data>
+      <data key="d6" />
+    </node>
+    <node id="Sponsors">
+      <data key="d0">Sponsors</data>
+      <data key="d1">organization</data>
+      <data key="d2">External financial contributors upon whom the Autosportklas racing team relies for funding and continued operation.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Ministerie van Defensie">
+      <data key="d0">Ministerie van Defensie</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Dutch Ministry of Defence, which provides racing cars to Newton College to promote technical careers.&lt;SEP&gt;The Dutch Ministry of Defence, which collaborates with Newton College by providing resources, training, or employment support for the autosportklas.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Arda">
+      <data key="d0">Arda</data>
+      <data key="d1">organization</data>
+      <data key="d2">Arda is an advisory consultancy firm that conducted a major labor market study among 1,200 job seekers.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Samir van Veen">
+      <data key="d0">Samir van Veen</data>
+      <data key="d1">person</data>
+      <data key="d2">Samir van Veen is a researcher at Arda who investigated generational differences in job seekers' preferences.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Arbeidsmarktonderzoek">
+      <data key="d0">Arbeidsmarktonderzoek</data>
+      <data key="d1">method</data>
+      <data key="d2">Arbeidsmarktonderzoek is a labor market study conducted by Arda to analyze what job seekers of different ages find important in a career.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Vera Tames">
+      <data key="d0">Vera Tames</data>
+      <data key="d1">person</data>
+      <data key="d2">Vera Tames is a representative of the senior employment agency Plustalent who discusses the motivations of older job seekers.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Plustalent">
+      <data key="d0">Plustalent</data>
+      <data key="d1">organization</data>
+      <data key="d2">Plustalent is a specialized temporary employment agency for older workers.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Marcia Bregman">
+      <data key="d0">Marcia Bregman</data>
+      <data key="d1">person</data>
+      <data key="d2">Marcia Bregman is a representative of the trade union FNV who comments on the labor market anxieties experienced by younger people.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="FNV">
+      <data key="d0">FNV</data>
+      <data key="d1">organization</data>
+      <data key="d2">FNV is a prominent Dutch trade union represented by Marcia Bregman.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Youth Job Seekers">
+      <data key="d0">Youth Job Seekers</data>
+      <data key="d1">concept</data>
+      <data key="d2">Job seekers under 24 years of age who prioritize stability, physical activity, and financial rewards over work content or creativity due to anxieties about the future.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Older Job Seekers">
+      <data key="d0">Older Job Seekers</data>
+      <data key="d1">concept</data>
+      <data key="d2">Job seekers aged 45 and older who seek challenging work, creativity, analysis, and concrete results, often supported by an established financial foundation.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Newspaper Article">
+      <data key="d0">Newspaper Article</data>
+      <data key="d1">content</data>
+      <data key="d2">A news publication detailing the contrasting job desires and priorities of younger and older work seekers on the labor market.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Top 5 Job Desires">
+      <data key="d0">Top 5 Job Desires</data>
+      <data key="d1">data</data>
+      <data key="d2">A ranked list illustrating the top five distinct workplace preferences for both young job seekers under 24 and older job seekers starting at age 45.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Marke">
+      <data key="d0">Marke</data>
+      <data key="d1">organization</data>
+      <data key="d2">Marke is a bakery organization that offers various employment, training, and career progression opportunities across its different business units.&lt;SEP&gt;A brand and organization that operates multiple retail branches and sells baked goods produced by its own network of bakeries.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe&lt;SEP&gt;chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="BBL Training">
+      <data key="d0">BBL Training</data>
+      <data key="d1">concept</data>
+      <data key="d2">BBL Training (beroepsbegeleidend leren) is a vocational training program for bakers that combines school-based learning with practical work experience.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Joshua">
+      <data key="d0">Joshua</data>
+      <data key="d1">person</data>
+      <data key="d2">Joshua is an individual mentioned in the text's questions who is interested in working in the decentralized bakery.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Piet">
+      <data key="d0">Piet</data>
+      <data key="d1">person</data>
+      <data key="d2">Piet is a job seeker looking for a position within the bakery organization.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Exhibition Stand">
+      <data key="d0">Exhibition Stand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An exhibition stand is a rented and decorated space at a trade fair used by businesses as a calling card to attract and engage potential clients.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Island Stand">
+      <data key="d0">Island Stand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An island stand is a detached type of exhibition stand surrounded by walkways, offering the greatest flexibility in design but at a higher cost.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Stand Builder">
+      <data key="d0">Stand Builder</data>
+      <data key="d1">organization</data>
+      <data key="d2">A stand builder is a specialized business that can be hired to design and construct professional exhibition stands.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Routing">
+      <data key="d0">Routing</data>
+      <data key="d1">concept</data>
+      <data key="d2">Routing refers to the planned directional pathing that guides visitors logically through the different areas of an exhibition stand.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Lighting">
+      <data key="d0">Lighting</data>
+      <data key="d1">concept</data>
+      <data key="d2">Lighting is an essential design element in an exhibition stand used to attract visitors and highlight specific products or areas.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Trade Fair">
+      <data key="d0">Trade Fair</data>
+      <data key="d1">event</data>
+      <data key="d2">An event where business providers rent space from an organizer to set up exhibition stands and showcase products.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Exhibition Organizer">
+      <data key="d0">Exhibition Organizer</data>
+      <data key="d1">organization</data>
+      <data key="d2">The entity that organizes the trade fair, rents out space to exhibitors, and coordinates stand locations.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Inline Stand">
+      <data key="d0">Inline Stand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A basic type of exhibition stand situated in a row of stands, offering fewer design possibilities.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Corner Stand">
+      <data key="d0">Corner Stand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A type of exhibition stand located at the end of a row, offering more layout possibilities than an inline stand.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="End-of-Row Stand">
+      <data key="d0">End-of-Row Stand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A type of exhibition stand positioned across a row, offering multiple layout opportunities.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Sitting Area">
+      <data key="d0">Sitting Area</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A designated zone within an exhibition stand meant for hosting visitors, providing seating, materials, or child-friendly spaces.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Alette">
+      <data key="d0">Alette</data>
+      <data key="d1">person</data>
+      <data key="d2">Alette is an entrepreneur planning to sell earrings in a booth at a trade show.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="CAO">
+      <data key="d0">CAO</data>
+      <data key="d1">content</data>
+      <data key="d2">Collectieve Arbeidsovereenkomst (Collective Labor Agreement), which regulates employment terms such as waiting days and sick pay percentages.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Ziekteverzuim">
+      <data key="d0">Ziekteverzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Sickness absence, where an employee cannot perform duties due to medical reasons.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Kortdurend Ziekteverzuim">
+      <data key="d0">Kortdurend Ziekteverzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Short-term sickness absence, which is temporary and usually represents a limited financial risk for the employer.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470664</data>
+      <data key="d6" />
+    </node>
+    <node id="Frequent Kortdurend Ziekteverzuim">
+      <data key="d0">Frequent Kortdurend Ziekteverzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Frequent short-term sickness absence, often caused by underlying work or personal issues, which can lead to long-term sickness.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Langdurend Ziekteverzuim">
+      <data key="d0">Langdurend Ziekteverzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Long-term sickness absence, defined as being ill for six weeks or longer, which triggers significant employer obligations.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Wet Verbetering Poortwachter">
+      <data key="d0">Wet Verbetering Poortwachter</data>
+      <data key="d1">concept</data>
+      <data key="d2">A Dutch law that requires employers and long-term sick employees to jointly create a rehabilitation plan.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Re-integratietraject">
+      <data key="d0">Re-integratietraject</data>
+      <data key="d1">method</data>
+      <data key="d2">A reintegration process designed to help long-term sick employees return to work, paid for by the employer.&lt;SEP&gt;A vocational reintegration process initiated to help an employee return to work after an extended period of absence.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="WIA">
+      <data key="d0">WIA</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Dutch Work and Income according to Labour Capacity Act, which employees enter if long-term sickness rehabilitation fails.&lt;SEP&gt;The Dutch Work and Income according to Labour Capacity Act, under which employee guidance and support may be offered.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Ziekteverzuimverzekering">
+      <data key="d0">Ziekteverzuimverzekering</data>
+      <data key="d1">concept</data>
+      <data key="d2">Sickness absence insurance that helps employers cover the costs of continuing to pay sick employees' wages.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Arbodienst">
+      <data key="d0">Arbodienst</data>
+      <data key="d1">organization</data>
+      <data key="d2">An occupational health and safety service that assists employers with employee absenteeism guidance and prevention.&lt;SEP&gt;An occupational health service in the Netherlands that helps employers prevent and manage employee absenteeism.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Beursstand">
+      <data key="d0">Beursstand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An exhibition booth used by companies to present and sell products, requiring strategic planning in layout, lighting, and routing.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Eilandstand">
+      <data key="d0">Eilandstand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An island stand; a type of exhibition booth that allows for the greatest variation and flexibility in interior design and layout.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Hoekstand">
+      <data key="d0">Hoekstand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A corner stand; a specific layout variation of an exhibition booth.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Kopstand">
+      <data key="d0">Kopstand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A head stand; a specific layout variation of an exhibition booth.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Tussenstand">
+      <data key="d0">Tussenstand</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An intermediate or row stand; a specific layout variation of an exhibition booth.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Verlichting">
+      <data key="d0">Verlichting</data>
+      <data key="d1">concept</data>
+      <data key="d2">Lighting used in an exhibition booth, which should accurately display colors and highlight products.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Ondernemer">
+      <data key="d0">Ondernemer</data>
+      <data key="d1">person</data>
+      <data key="d2">The entrepreneur or business owner who bears the financial risks and management responsibilities associated with employee absenteeism.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Werknemer">
+      <data key="d0">Werknemer</data>
+      <data key="d1">person</data>
+      <data key="d2">The employee whose presence and health directly affect business operations and who may occasionally absent themselves.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Bedrijfsarts">
+      <data key="d0">Bedrijfsarts</data>
+      <data key="d1">person</data>
+      <data key="d2">A company doctor who assesses sick employees, handles official sickness reports, and guides the reintegration process.&lt;SEP&gt;The occupational physician or company doctor to whom employee sickness must be reported.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Ongeoorloofd Verzuim">
+      <data key="d0">Ongeoorloofd Verzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Unauthorized absence where an employee fails to show up for work without permission or valid notification.&lt;SEP&gt;Unauthorized absence, also known as 'black' absence, where an employee fails to show up for work without permission or notification.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Wit Verzuim">
+      <data key="d0">Wit Verzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Legitimate absenteeism where an employee is genuinely unable to work due to sickness.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Zwart Verzuim">
+      <data key="d0">Zwart Verzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Fictitious or fraudulent absenteeism where an employee falsely reports sick.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Grijs Verzuim">
+      <data key="d0">Grijs Verzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Ambiguous absenteeism where an employee has mild symptoms but could work, yet decides to report sick.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Verzuimverzekering">
+      <data key="d0">Verzuimverzekering</data>
+      <data key="d1">concept</data>
+      <data key="d2">Absenteeism insurance that covers wage payments during sick leave and provides advice on preventing absenteeism.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Werkstress">
+      <data key="d0">Werkstress</data>
+      <data key="d1">concept</data>
+      <data key="d2">Work-related stress, which is identified as a potential cause for employees regularly reporting sick.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Technisch Specialist Niveau 4">
+      <data key="d0">Technisch Specialist Niveau 4</data>
+      <data key="d1">concept</data>
+      <data key="d2">The specific level 4 technical specialist track within the automotive engineering program whose top students qualify for the Autosportklas.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Geen Arbeid, Geen Loon">
+      <data key="d0">Geen Arbeid, Geen Loon</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Dutch legal principle of 'no work, no pay' which allows employers to withhold salary when an employee fails to work without authorization.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Sportongeval">
+      <data key="d0">Sportongeval</data>
+      <data key="d1">concept</data>
+      <data key="d2">A sports injury that prevents an employee from working, which must be handled as a standard sick leave event by the employer.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Verzuim">
+      <data key="d0">Verzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">General employee absenteeism or sick leave from work.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Oefentoets Lezen B1-1">
+      <data key="d0">Oefentoets Lezen B1-1</data>
+      <data key="d1">content</data>
+      <data key="d2">A practice reading test designed to assess intermediate Dutch language reading comprehension.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Employers">
+      <data key="d0">Employers</data>
+      <data key="d1">person</data>
+      <data key="d2">A category of individuals (werkgevers) mentioned in the test options as potential beneficiaries of the research results.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Employees">
+      <data key="d0">Employees</data>
+      <data key="d1">person</data>
+      <data key="d2">A category of individuals (werknemers) mentioned in the test options as potential beneficiaries of the research results.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Job Seekers">
+      <data key="d0">Job Seekers</data>
+      <data key="d1">person</data>
+      <data key="d2">A category of individuals (werkzoekenden) mentioned in the test options as potential beneficiaries of the research results.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Research Results">
+      <data key="d0">Research Results</data>
+      <data key="d1">data</data>
+      <data key="d2">The outcomes of a study referenced in the first practice test question.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470665</data>
+      <data key="d6" />
+    </node>
+    <node id="Four-Step Reading Method">
+      <data key="d0">Four-Step Reading Method</data>
+      <data key="d1">method</data>
+      <data key="d2">A systematic reading strategy involving skimming titles, reading questions, identifying keywords, and verifying answers in context.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Dictionary">
+      <data key="d0">Dictionary</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A reference tool (woordenboek) that test-takers can use to look up unknown words during the practice test.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="B1 Reading Comprehension">
+      <data key="d0">B1 Reading Comprehension</data>
+      <data key="d1">concept</data>
+      <data key="d2">The target language proficiency level for the practice test, focusing on intermediate-level reading skills.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Test-Taker">
+      <data key="d0">Test-Taker</data>
+      <data key="d1">person</data>
+      <data key="d2">The individual who completes the reading test and evaluates their performance through the post-test questionnaire.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Referral Words">
+      <data key="d0">Referral Words</data>
+      <data key="d1">concept</data>
+      <data key="d2">Grammatical markers such as 'die', 'dat', 'daar', or 'zij' that test-takers are advised to observe closely when verifying answers.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Keywords">
+      <data key="d0">Keywords</data>
+      <data key="d1">concept</data>
+      <data key="d2">Core words identified within the questions and answers to aid in locating correct passages.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Time Allocation">
+      <data key="d0">Time Allocation</data>
+      <data key="d1">method</data>
+      <data key="d2">The strategic distribution of time across different parts of the reading test.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Utrecht">
+      <data key="d0">Utrecht</data>
+      <data key="d1">location</data>
+      <data key="d2">The city in the Netherlands that hosts the main office, the central bakery, and one of the six decentralized bakeries of the organization.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Central Bakery Utrecht">
+      <data key="d0">Central Bakery Utrecht</data>
+      <data key="d1">organization</data>
+      <data key="d2">The primary, industrial-scale bakery of the organization located in Utrecht, serving as the central production hub that creates bases for all kinds of pastries.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Decentralized Bakeries">
+      <data key="d0">Decentralized Bakeries</data>
+      <data key="d1">organization</data>
+      <data key="d2">A network of six regional bakeries across the country that prepare, finish, and deliver daily pastry orders directly to local Marke branches.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Proefbakkerij">
+      <data key="d0">Proefbakkerij</data>
+      <data key="d1">organization</data>
+      <data key="d2">The experimental test bakery department in Utrecht where creative staff develop new products, flavors, and recipes.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Purchasing Department">
+      <data key="d0">Purchasing Department</data>
+      <data key="d1">organization</data>
+      <data key="d2">The administrative department (Afdeling Inkoop) in Utrecht responsible for sourcing ingredients and packaging materials for the bakeries.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Operations Office">
+      <data key="d0">Operations Office</data>
+      <data key="d1">organization</data>
+      <data key="d2">The planning and process management department (Bedrijfsbureau) in Utrecht that handles scheduling, system maintenance, and process optimization.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Quality Department">
+      <data key="d0">Quality Department</data>
+      <data key="d1">organization</data>
+      <data key="d2">The department (Afdeling Kwaliteit) in Utrecht responsible for monitoring hygiene and maintaining quality standards across all bakeries.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Administration Department">
+      <data key="d0">Administration Department</data>
+      <data key="d1">organization</data>
+      <data key="d2">The office (Afdeling Administratie) in Utrecht responsible for maintaining structured organizational and financial records.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Human Resources Department">
+      <data key="d0">Human Resources Department</data>
+      <data key="d1">organization</data>
+      <data key="d2">The personnel department (Afdeling Personeelszaken) in Utrecht responsible for managing staff recruitment, development, and personnel matters.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="BBL-opleiding">
+      <data key="d0">BBL-opleiding</data>
+      <data key="d1">concept</data>
+      <data key="d2">A vocational work-study training program for bakers that can be combined with employment at the organization's bakeries.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Van Dale Pocketwoordenboek Nederlands als Tweede Taal">
+      <data key="d0">Van Dale Pocketwoordenboek Nederlands als Tweede Taal</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A physical Dutch-as-a-second-language pocket dictionary allowed for use during B1-level reading examinations.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Oefentoets Lezen B1">
+      <data key="d0">Oefentoets Lezen B1</data>
+      <data key="d1">content</data>
+      <data key="d2">A practice reading comprehension test for Dutch language level B1, designed to take 65 minutes.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Staatsexamen I">
+      <data key="d0">Staatsexamen I</data>
+      <data key="d1">event</data>
+      <data key="d2">A Dutch national state examination on which the B1 reading practice test is based.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Bakery Management">
+      <data key="d0">Bakery Management</data>
+      <data key="d1">organization</data>
+      <data key="d2">The executive board (bakkerijdirectie) that controls the bakery organization from the Utrecht office.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Uitzetkoeling">
+      <data key="d0">Uitzetkoeling</data>
+      <data key="d1">location</data>
+      <data key="d2">The designated cooling and sorting zone in decentralized bakeries where finished pastries are organized before transport.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Korstgebak Department">
+      <data key="d0">Korstgebak Department</data>
+      <data key="d1">organization</data>
+      <data key="d2">The specialized puff pastry department within the Central Bakery Utrecht where products like sausage rolls are made.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Deegafdeling">
+      <data key="d0">Deegafdeling</data>
+      <data key="d1">organization</data>
+      <data key="d2">The dough department within the Central Bakery Utrecht responsible for preparing dough-based items like apple pies.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <node id="Beslagafdeling">
+      <data key="d0">Beslagafdeling</data>
+      <data key="d1">organization</data>
+      <data key="d2">The batter department within the Central Bakery Utrecht that prepares bases for products such as photo cakes.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780470666</data>
+      <data key="d6" />
+    </node>
+    <edge source="Bernardo Marelis" target="Autosportklas">
+      <data key="d7">3.0</data>
+      <data key="d8">Bernardo Marelis co-leads and manages the Autosportklas.&lt;SEP&gt;Bernardo Marelis assesses the educational aspects of the autosportklas program, highlighting the value of practical experience.&lt;SEP&gt;Bernardo Marelis is one of the teachers leading the Autosportklas.</data>
+      <data key="d9">education,feedback,leadership,program evaluation,teaching</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470667</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Bernardo Marelis" target="Kate Bitar">
+      <data key="d7">2.0</data>
+      <data key="d8">Bernardo Marelis and Kate Bitar work together as instructors to run the Autosportklas.&lt;SEP&gt;Bernardo Marelis and Kate Bitar work together to lead the Autosportklas.</data>
+      <data key="d9">collaboration,professional collaboration,teaching,teaching partners</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470667</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Kate Bitar" target="Autosportklas">
+      <data key="d7">3.0</data>
+      <data key="d8">Kate Bitar co-leads and manages the Autosportklas.&lt;SEP&gt;Kate Bitar is actively involved in managing and navigating challenges within the autosportklas trajectory.&lt;SEP&gt;Kate Bitar co-leads the Autosportklas and manages its challenges.</data>
+      <data key="d9">development challenges,education,leadership,program management,teaching</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470667</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Defensie" target="Autosportklas">
+      <data key="d7">1.0</data>
+      <data key="d8">While the Autosportklas provides technical training that could lead to a career at Defensie, Bernardo Marelis notes that they do not explicitly train students for Defensie.</data>
+      <data key="d9">career opportunities,training</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Newton College">
+      <data key="d7">2.0</data>
+      <data key="d8">Newton College offers the Autosportklas as an elite, hands-on training track for its top students.&lt;SEP&gt;Newton College provides financial funding to the Autosportklas, viewing it as a promotional asset.</data>
+      <data key="d9">curriculum,institutional support,program offering,sponsorship</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470667</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Abel">
+      <data key="d7">1.0</data>
+      <data key="d8">Abel is a student in the Autosportklas who believes the class gives him a head start in the racing sector.</data>
+      <data key="d9">career preparation,student enrollment</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470668</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Hussam">
+      <data key="d7">1.0</data>
+      <data key="d8">Hussam worked hard to qualify for the Autosportklas by raising his educational level.</data>
+      <data key="d9">academic drive,student enrollment</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470668</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Lauren Ramos">
+      <data key="d7">2.0</data>
+      <data key="d8">Lauren Ramos acts as the education manager for the autosportklas and seeks to improve its connection to existing courses.&lt;SEP&gt;Lauren Ramos plans to research expanding the Autosportklas into a standalone, multi-season curriculum.</data>
+      <data key="d9">curriculum adjustment,expansion plans,program development,program management</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470668</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Opleiding Motorvoertuigentechniek">
+      <data key="d7">2.0</data>
+      <data key="d8">The Autosportklas is a specialized track reserved for the best students within the Opleiding Motorvoertuigentechniek.&lt;SEP&gt;Students in the Autosportklas rejoin the standard Opleiding Motorvoertuigentechniek program after their year of racing experience.</data>
+      <data key="d9">academic integration,academic transition,curriculum integration,student selection</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470668</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Engeland">
+      <data key="d7">1.0</data>
+      <data key="d8">Autosportklas students regularly travel to Engeland to visit prominent motorsport brands.</data>
+      <data key="d9">field trip,international study</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Keulen">
+      <data key="d7">1.0</data>
+      <data key="d8">Autosportklas students travel to Keulen for annual excursions to the motor fair.</data>
+      <data key="d9">excursion,industry exposure</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Proflex">
+      <data key="d7">1.0</data>
+      <data key="d8">The Autosportklas collaborates with Proflex, visiting their facilities and receiving guest lectures from their specialists.</data>
+      <data key="d9">academic partnership,industry collaboration</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="M-Sport">
+      <data key="d7">1.0</data>
+      <data key="d8">Autosportklas students travel to England to observe how the motorsport brand M-Sport operates.</data>
+      <data key="d9">industry exposure,study trip</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Prodrive">
+      <data key="d7">1.0</data>
+      <data key="d8">Autosportklas students visit Prodrive in England to learn from their experience building Le Mans cars.</data>
+      <data key="d9">industry exposure,study trip</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Sponsors">
+      <data key="d7">1.0</data>
+      <data key="d8">The Autosportklas racing team depends on funding from sponsors to maintain the program each year.</data>
+      <data key="d9">financial dependency,sponsorship</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Ministerie van Defensie">
+      <data key="d7">2.0</data>
+      <data key="d8">The Ministerie van Defensie provides racing cars to the Autosportklas to stimulate student interest in technical defense careers.&lt;SEP&gt;The Ministerie van Defensie provides essential support, such as vehicles, training, or job placements, to the autosportklas trajectory.</data>
+      <data key="d9">program support,recruitment initiative,sponsorship,training collaboration</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Tilburg">
+      <data key="d7">1.0</data>
+      <data key="d8">An autosport class has existed in the city of Tilburg since 1988, predating the Newton College program.</data>
+      <data key="d9">historical origin,regional presence</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Autosportklas" target="Technisch Specialist Niveau 4">
+      <data key="d7">1.0</data>
+      <data key="d8">Only the top-performing students from the Technisch Specialist Niveau 4 track are selected to participate in the Autosportklas.</data>
+      <data key="d9">program eligibility,student selection</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Newton College" target="Ministerie van Defensie">
+      <data key="d7">2.0</data>
+      <data key="d8">The Ministerie van Defensie partners with Newton College by providing vehicles for their student racing program.&lt;SEP&gt;The Ministerie van Defensie collaborates with Newton College to support its autosportklas program.</data>
+      <data key="d9">equipment sharing,institutional collaboration,institutional partnership,resource sharing</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058&lt;SEP&gt;chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Newton College" target="Lauren Ramos">
+      <data key="d7">1.0</data>
+      <data key="d8">Lauren Ramos manages the autosportklas educational program hosted at Newton College.</data>
+      <data key="d9">academic management,employment</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Lauren Ramos" target="Sector Techniek &amp; Vormgeving">
+      <data key="d7">1.0</data>
+      <data key="d8">Lauren Ramos serves as the training manager of the Sector Techniek &amp; Vormgeving.</data>
+      <data key="d9">employment,management</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470667</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Opleiding Motorvoertuigentechniek" target="Technisch Specialist Niveau 4">
+      <data key="d7">1.0</data>
+      <data key="d8">Technisch Specialist Niveau 4 is a specialized educational direction within the broader Opleiding Motorvoertuigentechniek.</data>
+      <data key="d9">academic hierarchy,educational track</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Engeland" target="M-Sport">
+      <data key="d7">1.0</data>
+      <data key="d8">M-Sport is a prominent racing brand located and operating in England.</data>
+      <data key="d9">business operations,geographic location</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Engeland" target="Prodrive">
+      <data key="d7">1.0</data>
+      <data key="d8">Prodrive is a prominent racing company located and operating in England.</data>
+      <data key="d9">business operations,geographic location</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Proflex" target="Parijs-Dakar">
+      <data key="d7">1.0</data>
+      <data key="d8">Proflex develops and supplies shock absorbers used in the Parijs-Dakar rally.</data>
+      <data key="d9">automotive engineering,supply chain</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470668</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Proflex" target="Tilburg">
+      <data key="d7">1.0</data>
+      <data key="d8">Proflex sends its specialists to Tilburg to conduct guest lectures for the students.</data>
+      <data key="d9">guest lecturing,local engagement</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470668</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Arda" target="Samir van Veen">
+      <data key="d7">1.0</data>
+      <data key="d8">Samir van Veen works as a researcher for the consultancy firm Arda.</data>
+      <data key="d9">employment,professional research</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470669</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Arda" target="Arbeidsmarktonderzoek">
+      <data key="d7">1.0</data>
+      <data key="d8">The advisory firm Arda is the organization that commissioned and holds the findings of the labor market research.</data>
+      <data key="d9">commercial study,research ownership</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Samir van Veen" target="Arbeidsmarktonderzoek">
+      <data key="d7">1.0</data>
+      <data key="d8">Samir van Veen led the design and execution of the labor market study involving 1,200 job seekers.</data>
+      <data key="d9">data gathering,study leadership</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Samir van Veen" target="Youth Job Seekers">
+      <data key="d7">1.0</data>
+      <data key="d8">Samir van Veen's research analyzed the specific career motivations and preferences of young job seekers.</data>
+      <data key="d9">demographic analysis,research</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Samir van Veen" target="Older Job Seekers">
+      <data key="d7">1.0</data>
+      <data key="d8">Samir van Veen's research highlighted that older job seekers are more interested in creativity and professional development than commonly assumed.</data>
+      <data key="d9">demographic analysis,research</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Arbeidsmarktonderzoek" target="Newspaper Article">
+      <data key="d7">1.0</data>
+      <data key="d8">The newspaper article reports on the core findings of the labor market study (Arbeidsmarktonderzoek) conducted by Arda.</data>
+      <data key="d9">media coverage,research dissemination</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Vera Tames" target="Plustalent">
+      <data key="d7">1.0</data>
+      <data key="d8">Vera Tames works for and shares professional perspectives on behalf of the senior employment agency Plustalent.</data>
+      <data key="d9">employment,professional advocacy</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Vera Tames" target="Older Job Seekers">
+      <data key="d7">1.0</data>
+      <data key="d8">Vera Tames provides expert commentary on how a secure financial foundation enables older job seekers to pursue creative and fulfilling work.</data>
+      <data key="d9">career counseling,demographic analysis</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marcia Bregman" target="FNV">
+      <data key="d7">1.0</data>
+      <data key="d8">Marcia Bregman represents the interests and perspectives of the trade union FNV.</data>
+      <data key="d9">employment,labor representation</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marcia Bregman" target="Youth Job Seekers">
+      <data key="d7">1.0</data>
+      <data key="d8">Marcia Bregman describes how future uncertainties and a shifting labor market make stability critical for young job seekers.</data>
+      <data key="d9">anxiety analysis,labor representation</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Newspaper Article" target="Top 5 Job Desires">
+      <data key="d7">1.0</data>
+      <data key="d8">The newspaper article showcases the Top 5 Job Desires data comparing youth and older job seekers.</data>
+      <data key="d9">content inclusion,data visualization</data>
+      <data key="d10">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="BBL Training">
+      <data key="d7">1.0</data>
+      <data key="d8">Students enrolled in BBL Training can combine school with hands-on work experience at Marke's bakeries.</data>
+      <data key="d9">career training,vocational education</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470670</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="Joshua">
+      <data key="d7">1.0</data>
+      <data key="d8">Joshua is interested in working in Marke's decentralized bakery operations.</data>
+      <data key="d9">employment interest</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="Piet">
+      <data key="d7">1.0</data>
+      <data key="d8">Piet is looking to secure a job within Marke's bakery organization.</data>
+      <data key="d9">employment,job search</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="Decentralized Bakeries">
+      <data key="d7">1.0</data>
+      <data key="d8">The decentralized bakeries prepare and decorate pastries which are then delivered by drivers directly to Marke retail branches.</data>
+      <data key="d9">retail delivery,supply chain</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="Central Bakery Utrecht">
+      <data key="d7">1.0</data>
+      <data key="d8">Central Bakery Utrecht serves as the core production facility for the Marke brand's bakery operations.</data>
+      <data key="d9">organizational structure,supply chain</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="Bakery Management">
+      <data key="d7">1.0</data>
+      <data key="d8">The Bakery Management oversees the production and distribution of baked goods for Marke branches.</data>
+      <data key="d9">corporate structure,management</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470676</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Stand Builder">
+      <data key="d7">1.0</data>
+      <data key="d8">Exhibitors can outsource the design and setup of their exhibition stand to a professional stand builder.</data>
+      <data key="d9">design and construction,outsourcing</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Island Stand">
+      <data key="d7">1.0</data>
+      <data key="d8">An Island Stand is a highly versatile and spacious type of exhibition stand.</data>
+      <data key="d9">layout configuration,typology</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Routing">
+      <data key="d7">1.0</data>
+      <data key="d8">Routing is implemented within an exhibition stand to ensure visitors flow through all its sections in a logical manner.</data>
+      <data key="d9">interior planning,visitor navigation</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Lighting">
+      <data key="d7">1.0</data>
+      <data key="d8">Lighting is used strategically inside an exhibition stand to showcase products and direct visitor attention to key areas.</data>
+      <data key="d9">product presentation,visual marketing</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Trade Fair">
+      <data key="d7">1.0</data>
+      <data key="d8">Exhibition stands are built and presented at trade fairs to attract visitors.</data>
+      <data key="d9">event venue,hosting</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Exhibition Organizer">
+      <data key="d7">1.0</data>
+      <data key="d8">The exhibition organizer rents out space for stands and coordinates their location on the trade fair floor with exhibitors.</data>
+      <data key="d9">leasing,spatial planning</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Inline Stand">
+      <data key="d7">1.0</data>
+      <data key="d8">An inline stand is a basic layout type of an exhibition stand.</data>
+      <data key="d9">layout classification,typology</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Corner Stand">
+      <data key="d7">1.0</data>
+      <data key="d8">A corner stand is a specific layout type of an exhibition stand.</data>
+      <data key="d9">layout classification,typology</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="End-of-Row Stand">
+      <data key="d7">1.0</data>
+      <data key="d8">An end-of-row stand is a specific layout type of an exhibition stand.</data>
+      <data key="d9">layout classification,typology</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Exhibition Stand" target="Sitting Area">
+      <data key="d7">1.0</data>
+      <data key="d8">An exhibition stand can incorporate a sitting area to keep customers engaged and facilitate quiet negotiations.</data>
+      <data key="d9">interior planning,visitor accommodation</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Alette" target="Verlichting">
+      <data key="d7">1.0</data>
+      <data key="d8">Alette is advised to use lighting that shows product colors accurately when selling earrings in her booth.</data>
+      <data key="d9">practical advice,product display</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CAO" target="Kortdurend Ziekteverzuim">
+      <data key="d7">1.0</data>
+      <data key="d8">Some CAOs allow employers to apply two unpaid waiting days during short-term sickness absence.</data>
+      <data key="d9">labor terms,waiting days</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470671</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ziekteverzuim" target="Ziekteverzuimverzekering">
+      <data key="d7">1.0</data>
+      <data key="d8">A sickness absence insurance (ziekteverzuimverzekering) covers the employer's costs of wage continuation during employee sickness.</data>
+      <data key="d9">coverage,financial risk mitigation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Frequent Kortdurend Ziekteverzuim" target="Langdurend Ziekteverzuim">
+      <data key="d7">1.0</data>
+      <data key="d8">Frequent short-term sickness absence often serves as a strong indicator that can lead to long-term sickness absence.</data>
+      <data key="d9">escalation risk,predictor</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Langdurend Ziekteverzuim" target="Wet Verbetering Poortwachter">
+      <data key="d7">1.0</data>
+      <data key="d8">Long-term sickness absence triggers compliance requirements under the Wet Verbetering Poortwachter.</data>
+      <data key="d9">legal compliance,regulation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Wet Verbetering Poortwachter" target="Re-integratietraject">
+      <data key="d7">1.0</data>
+      <data key="d8">The Wet Verbetering Poortwachter mandates that employers initiate a funded reintegration process (re-integratietraject) for the employee.</data>
+      <data key="d9">mandatory action,rehabilitation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Re-integratietraject" target="WIA">
+      <data key="d7">1.0</data>
+      <data key="d8">If a re-integratietraject fails or lasts too long, the sick employee may ultimately transition into the WIA.</data>
+      <data key="d9">escalation,social security</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Re-integratietraject" target="Verzuim">
+      <data key="d7">1.0</data>
+      <data key="d8">A reintegration process (re-integratietraject) is officially initiated after six weeks of continuous employee absenteeism (verzuim).</data>
+      <data key="d9">return-to-work process,timeline</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ziekteverzuimverzekering" target="Arbodienst">
+      <data key="d7">1.0</data>
+      <data key="d8">Sickness absence insurance packages often bundle services with an Arbodienst to guide employees starting from their first day of illness.</data>
+      <data key="d9">integrated services,partnership</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Arbodienst" target="Verzuimverzekering">
+      <data key="d7">1.0</data>
+      <data key="d8">An Arbodienst's services are often included in a Verzuimverzekering package to help guide sick employees from their first day of absence.</data>
+      <data key="d9">insurance packages,service integration</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Arbodienst" target="Bedrijfsarts">
+      <data key="d7">1.0</data>
+      <data key="d8">The Bedrijfsarts works in tandem with the Arbodienst to assess sick employees and facilitate their return to work.</data>
+      <data key="d9">absenteeism management,professional collaboration</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Beursstand" target="Eilandstand">
+      <data key="d7">1.0</data>
+      <data key="d8">Eilandstand is a specific type of exhibition booth that offers the most flexibility for layout variation.</data>
+      <data key="d9">booth variation,design flexibility</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470672</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Beursstand" target="Hoekstand">
+      <data key="d7">1.0</data>
+      <data key="d8">Hoekstand is an option for an exhibition booth configuration.</data>
+      <data key="d9">booth variation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Beursstand" target="Kopstand">
+      <data key="d7">1.0</data>
+      <data key="d8">Kopstand is an option for an exhibition booth configuration.</data>
+      <data key="d9">booth variation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Beursstand" target="Tussenstand">
+      <data key="d7">1.0</data>
+      <data key="d8">Tussenstand is an option for an exhibition booth configuration.</data>
+      <data key="d9">booth variation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ondernemer" target="Werknemer">
+      <data key="d7">1.0</data>
+      <data key="d8">The Ondernemer is financially impacted by the sickness and absenteeism of their Werknemer.</data>
+      <data key="d9">employment relationship,financial risk</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ondernemer" target="Bedrijfsarts">
+      <data key="d7">1.0</data>
+      <data key="d8">The Ondernemer is responsible for reporting a Werknemer's illness to the Bedrijfsarts.</data>
+      <data key="d9">administrative action,reporting obligation</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Werknemer" target="Ongeoorloofd Verzuim">
+      <data key="d7">1.0</data>
+      <data key="d8">A Werknemer commits unauthorized absence (ongeoorloofd verzuim) when they do not report to work without prior approval.</data>
+      <data key="d9">absenteeism,unauthorized behavior</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Bedrijfsarts" target="Sportongeval">
+      <data key="d7">1.0</data>
+      <data key="d8">Employers are required to report an employee absent due to a sports accident to the company doctor (bedrijfsarts) within four days.</data>
+      <data key="d9">occupational health,reporting procedure</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ongeoorloofd Verzuim" target="Zwart Verzuim">
+      <data key="d7">1.0</data>
+      <data key="d8">Zwart verzuim is another term used to describe ongeoorloofd verzuim, which refers to unauthorized work absence.</data>
+      <data key="d9">classification,synonym</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Ongeoorloofd Verzuim" target="Geen Arbeid, Geen Loon">
+      <data key="d7">1.0</data>
+      <data key="d8">The principle of 'geen arbeid, geen loon' applies specifically to cases of unauthorized absence, meaning the employer is not obligated to pay wages.</data>
+      <data key="d9">labor regulation,salary withholding</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Verzuimverzekering" target="Verzuim">
+      <data key="d7">1.0</data>
+      <data key="d8">A verzuimverzekering covers wage payments and provides advisory services to prevent and limit overall employee absenteeism.</data>
+      <data key="d9">insurance coverage,risk mitigation</data>
+      <data key="d10">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Oefentoets Lezen B1-1" target="B1 Reading Comprehension">
+      <data key="d7">1.0</data>
+      <data key="d8">The Oefentoets Lezen B1-1 is a practice exam designed to evaluate B1 Reading Comprehension skills.</data>
+      <data key="d9">assessment,standard</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470673</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Oefentoets Lezen B1-1" target="Four-Step Reading Method">
+      <data key="d7">1.0</data>
+      <data key="d8">The Four-Step Reading Method is a recommended strategy for completing the Oefentoets Lezen B1-1 effectively.</data>
+      <data key="d9">application,reading strategy</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Oefentoets Lezen B1-1" target="Dictionary">
+      <data key="d7">1.0</data>
+      <data key="d8">Students are evaluated on whether and how they used a dictionary during the Oefentoets Lezen B1-1.</data>
+      <data key="d9">assistance,test-taking tool</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Oefentoets Lezen B1-1" target="Research Results">
+      <data key="d7">1.0</data>
+      <data key="d8">The Oefentoets Lezen B1-1 contains a question regarding who can benefit from the research results.</data>
+      <data key="d9">subject matter,test content</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Oefentoets Lezen B1-1" target="Test-Taker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Test-Taker completes the practice test and reflects on their results.</data>
+      <data key="d9">self-evaluation,test performance</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Employers" target="Research Results">
+      <data key="d7">1.0</data>
+      <data key="d8">Employers are listed in the test as potential beneficiaries of the research results.</data>
+      <data key="d9">beneficiary,research impact</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Employees" target="Research Results">
+      <data key="d7">1.0</data>
+      <data key="d8">Employees are listed in the test as potential beneficiaries of the research results.</data>
+      <data key="d9">beneficiary,research impact</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Job Seekers" target="Research Results">
+      <data key="d7">1.0</data>
+      <data key="d8">Job Seekers are listed in the test as potential beneficiaries of the research results.</data>
+      <data key="d9">beneficiary,research impact</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Four-Step Reading Method" target="Test-Taker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Test-Taker is evaluated on whether they followed the Four-Step Reading Method during the test.</data>
+      <data key="d9">method evaluation,reading strategy</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Four-Step Reading Method" target="Keywords">
+      <data key="d7">1.0</data>
+      <data key="d8">The third step of the reading method involves identifying keywords in the questions and answers.</data>
+      <data key="d9">keyword identification,strategy component</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Four-Step Reading Method" target="Referral Words">
+      <data key="d7">1.0</data>
+      <data key="d8">The fourth step of the reading method instructs the reader to pay close attention to referral words.</data>
+      <data key="d9">contextual verification,grammar attention</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Dictionary" target="Test-Taker">
+      <data key="d7">1.0</data>
+      <data key="d8">The Test-Taker self-reports their usage of a dictionary during the test.</data>
+      <data key="d9">comprehension assistance,tool usage</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Test-Taker" target="Time Allocation">
+      <data key="d7">1.0</data>
+      <data key="d8">The Test-Taker evaluates whether they effectively planned and divided their time during the test.</data>
+      <data key="d9">test strategy,time management</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Central Bakery Utrecht">
+      <data key="d7">1.0</data>
+      <data key="d8">Central Bakery Utrecht is physically located in the city of Utrecht alongside the main corporate office.</data>
+      <data key="d9">location,physical headquarters</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Proefbakkerij">
+      <data key="d7">1.0</data>
+      <data key="d8">The Proefbakkerij operates out of the central office facility located in Utrecht.</data>
+      <data key="d9">location,organizational structure</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470674</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Purchasing Department">
+      <data key="d7">1.0</data>
+      <data key="d8">The Purchasing Department is an administrative unit stationed at the main office in Utrecht.</data>
+      <data key="d9">location,organizational structure</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Operations Office">
+      <data key="d7">1.0</data>
+      <data key="d8">The Operations Office is a support department based in the Utrecht office.</data>
+      <data key="d9">location,organizational structure</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Quality Department">
+      <data key="d7">1.0</data>
+      <data key="d8">The Quality Department is located in Utrecht, from where it monitors hygiene standards in all production facilities.</data>
+      <data key="d9">location,organizational structure</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Administration Department">
+      <data key="d7">1.0</data>
+      <data key="d8">The Administration Department conducts its record-keeping activities at the main office in Utrecht.</data>
+      <data key="d9">location,organizational structure</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Human Resources Department">
+      <data key="d7">1.0</data>
+      <data key="d8">The Human Resources Department handles personnel affairs from its office base in Utrecht.</data>
+      <data key="d9">location,organizational structure</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470676</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Utrecht" target="Bakery Management">
+      <data key="d7">1.0</data>
+      <data key="d8">The office of the Bakery Management is located in the Utrecht facility.</data>
+      <data key="d9">administrative location,headquarters</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470676</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Central Bakery Utrecht" target="Decentralized Bakeries">
+      <data key="d7">1.0</data>
+      <data key="d8">Central Bakery Utrecht manufactures base products that are subsequently sent to the decentralized bakeries to be completed into various pastries.</data>
+      <data key="d9">production support,supply chain</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Central Bakery Utrecht" target="BBL-opleiding">
+      <data key="d7">1.0</data>
+      <data key="d8">Central Bakery Utrecht offers practical training and work opportunities for student bakers enrolled in BBL-opleiding programs.</data>
+      <data key="d9">career development,vocational education</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Central Bakery Utrecht" target="Korstgebak Department">
+      <data key="d7">1.0</data>
+      <data key="d8">The Korstgebak Department operates as one of the three specialized production units within the Central Bakery Utrecht.</data>
+      <data key="d9">department division,organizational hierarchy</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Central Bakery Utrecht" target="Deegafdeling">
+      <data key="d7">1.0</data>
+      <data key="d8">The Deegafdeling is a production department located inside the Central Bakery Utrecht.</data>
+      <data key="d9">department division,organizational hierarchy</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470676</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Central Bakery Utrecht" target="Beslagafdeling">
+      <data key="d7">1.0</data>
+      <data key="d8">The Beslagafdeling operates as a core production department inside the Central Bakery Utrecht.</data>
+      <data key="d9">department division,organizational hierarchy</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470676</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Decentralized Bakeries" target="BBL-opleiding">
+      <data key="d7">1.0</data>
+      <data key="d8">The decentralized bakeries provide vocational work-study opportunities for students pursuing a BBL-opleiding qualification.</data>
+      <data key="d9">career development,vocational education</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Decentralized Bakeries" target="Uitzetkoeling">
+      <data key="d7">1.0</data>
+      <data key="d8">Workers in decentralized bakeries use the Uitzetkoeling to sort and allocate prepared pastries for store delivery.</data>
+      <data key="d9">logistics,storage</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Van Dale Pocketwoordenboek Nederlands als Tweede Taal" target="Oefentoets Lezen B1">
+      <data key="d7">1.0</data>
+      <data key="d8">Students are allowed to use the paper version of the Van Dale pocket dictionary during the Oefentoets Lezen B1 exam.</data>
+      <data key="d9">examination rules,permitted resources</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Oefentoets Lezen B1" target="Staatsexamen I">
+      <data key="d7">1.0</data>
+      <data key="d8">The Oefentoets Lezen B1 is structurally based on the 2024 Staatsexamen I reading test.</data>
+      <data key="d9">academic foundation,curriculum design</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780470675</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

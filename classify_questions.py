@@ -1,5 +1,4 @@
-import os
-from llm import LLM_PROVIDER, get_model_name, get_llm_client
+from llm import get_model_name, get_llm_client
 
 
 def classify_questions(question: str) -> str:

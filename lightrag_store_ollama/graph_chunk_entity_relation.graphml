@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="World Athletics Federation">
+      <data key="d0">World Athletics Federation</data>
+      <data key="d1">organization</data>
+      <data key="d2">The World Athletics Federation is the governing body overseeing the championship.</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="motorbeurs">
+      <data key="d0">motorbeurs</data>
+      <data key="d1">event</data>
+      <data key="d2">motorbeurs is an event where various cars are showcased.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="rally Parijs-Dakar">
+      <data key="d0">rally Parijs-Dakar</data>
+      <data key="d1">event</data>
+      <data key="d2">rally Parijs-Dakar is a challenging car rally across Europe.</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="Marke">
+      <data key="d0">Marke</data>
+      <data key="d1">person</data>
+      <data key="d2">Marke is a person responsible for organizing events.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="BBL-Opleiding">
+      <data key="d0">BBL-Opleiding</data>
+      <data key="d1">category</data>
+      <data key="d2">BBL-Opleiding refers to a type of training or education program.</data>
+      <data key="d3">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="Werkneemster">
+      <data key="d0">Werkneemster</data>
+      <data key="d1">person</data>
+      <data key="d2">A female employee working for an employer.</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="Grijs verzuim">
+      <data key="d0">Grijs verzuim</data>
+      <data key="d1">concept</data>
+      <data key="d2">Grijs verzuim verwijst naar een situatie waarin een werknemer niet meer kan werken vanwege herhaaldelijk verzuim, maar geen ziekte of ongeval heeft meegemaakt</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="Sportongeval">
+      <data key="d0">Sportongeval</data>
+      <data key="d1">concept</data>
+      <data key="d2">Een ongeval dat plaatsvindt tijdens het sporten, waarbij de werknemer verwondingen oplaat bij een werkgerelateerde activiteit of bij het uitvoeren van zijn/haar normale taken</data>
+      <data key="d3">chunk-d916e498731ef1cc66c5b5ce659834ce</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469604</data>
+      <data key="d6" />
+    </node>
+    <node id="World Athletics Championship">
+      <data key="d0">World Athletics Championship</data>
+      <data key="d1">event</data>
+      <data key="d2">The World Athletics Championship is a global sports competition featuring top athletes in track and field.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Tokyo">
+      <data key="d0">Tokyo</data>
+      <data key="d1">location</data>
+      <data key="d2">Tokyo is the host city of the World Athletics Championship.</data>
+      <data key="d3">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="World Athletics Championship Tokyo">
+      <data key="d0">World Athletics Championship Tokyo</data>
+      <data key="d1">event</data>
+      <data key="d2">The World Athletics Championship in Tokyo featured Noah Carter's record-breaking sprint.</data>
+      <data key="d3">chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="A Werkgevers">
+      <data key="d0">A Werkgevers</data>
+      <data key="d1">organization</data>
+      <data key="d2">A Werkgevers is a group of employers.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="B Werknemers">
+      <data key="d0">B Werknemers</data>
+      <data key="d1">organization</data>
+      <data key="d2">B Werknemers is a group of employees.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="C Werkzoekenden">
+      <data key="d0">C Werkzoekenden</data>
+      <data key="d1">organization</data>
+      <data key="d2">C Werkzoekenden is a group of job seekers.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Werkgevers">
+      <data key="d0">Werkgevers</data>
+      <data key="d1">organization</data>
+      <data key="d2">A Werkgevers is a group of employers.</data>
+      <data key="d3">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Carbon-Fiber Spikes">
+      <data key="d0">Carbon-Fiber Spikes</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47&lt;SEP&gt;chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d2">Noah Carter used carbon-fiber spikes to enhance his sprinting speed.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance performance during the race.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance his sprint performance.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Abel">
+      <data key="d0">Abel</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d2">Abel and Hussam are classmates in the race class.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Proflex">
+      <data key="d0">Proflex</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d2">The rally Parijs-Dakar event has connections with Proflex and its guests from around the world.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="race class">
+      <data key="d0">race class</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d2">motorbeurs is an event that sparks interest among those in the race class.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Noah Carter">
+      <data key="d0">Noah Carter</data>
+      <data key="d3">chunk-a65e499cab0f898a90258aa0e2bb2b47&lt;SEP&gt;chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d2">Noah Carter used carbon-fiber spikes to enhance his sprinting speed.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance performance during the race.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance his sprint performance.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <node id="Hussam">
+      <data key="d0">Hussam</data>
+      <data key="d3">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d2">Abel and Hussam are classmates in the race class.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780469605</data>
+      <data key="d6" />
+    </node>
+    <edge source="motorbeurs" target="race class">
+      <data key="d7">1.0</data>
+      <data key="d8">motorbeurs is an event that sparks interest among those in the race class.</data>
+      <data key="d9">event connection,interest</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="rally Parijs-Dakar" target="Proflex">
+      <data key="d7">1.0</data>
+      <data key="d8">The rally Parijs-Dakar event has connections with Proflex and its guests from around the world.</data>
+      <data key="d9">international participation,location of guest lessons</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marke" target="BBL-Opleiding">
+      <data key="d7">1.0</data>
+      <data key="d8">Marke is affiliated with BBL-Opleiding for employee development.</data>
+      <data key="d9">employee development,organizational structure</data>
+      <data key="d10">chunk-64275c6412b1f87709862250d7a7e4fe</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="World Athletics Championship" target="Noah Carter">
+      <data key="d7">1.0</data>
+      <data key="d8">Noah Carter is competing at the World Athletics Championship.</data>
+      <data key="d9">athlete participation,competition</data>
+      <data key="d10">chunk-b055cc30919545ff31a4abaec8a3b12b</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="A Werkgevers" target="B Werknemers">
+      <data key="d7">1.0</data>
+      <data key="d8">Werkgevers employ werknemers.</data>
+      <data key="d9">employer-employee relationship,work relation</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="A Werkgevers" target="C Werkzoekenden">
+      <data key="d7">1.0</data>
+      <data key="d8">Werkzoekenden seek employment with Werkgevers.</data>
+      <data key="d9">job search,job seeker- employer relationship</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="B Werknemers" target="C Werkzoekenden">
+      <data key="d7">1.0</data>
+      <data key="d8">Werkenmers may become job seekers at some point in their career.</data>
+      <data key="d9">employee-job seeker relationship,work transition</data>
+      <data key="d10">chunk-1d0b9fe4e71f4896e673a4b008cafdde</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Carbon-Fiber Spikes" target="Noah Carter">
+      <data key="d7">3.0</data>
+      <data key="d8">Noah Carter used carbon-fiber spikes to enhance his sprinting speed.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance performance during the race.&lt;SEP&gt;Noah Carter used carbon-fiber spikes to enhance his sprint performance.</data>
+      <data key="d9">athletic equipment,performance boost</data>
+      <data key="d10">chunk-a65e499cab0f898a90258aa0e2bb2b47&lt;SEP&gt;chunk-b055cc30919545ff31a4abaec8a3b12b&lt;SEP&gt;chunk-0e3dea965c02e0e5ceb45ecb83f02058</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Abel" target="Hussam">
+      <data key="d7">1.0</data>
+      <data key="d8">Abel and Hussam are classmates in the race class.</data>
+      <data key="d9">race class students,study buddies</data>
+      <data key="d10">chunk-34c33704b79e05d85401bea9e91cfee5</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780469605</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

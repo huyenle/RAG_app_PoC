@@ -1,0 +1,42 @@
+{
+  "doc-a4bfb6adf966a8a4b28e6929877d62c6": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-a65e499cab0f898a90258aa0e2bb2b47",
+      "chunk-64275c6412b1f87709862250d7a7e4fe",
+      "chunk-b055cc30919545ff31a4abaec8a3b12b",
+      "chunk-d916e498731ef1cc66c5b5ce659834ce",
+      "chunk-34c33704b79e05d85401bea9e91cfee5",
+      "chunk-0e3dea965c02e0e5ceb45ecb83f02058",
+      "chunk-1d0b9fe4e71f4896e673a4b008cafdde"
+    ],
+    "content_summary": "OEFENTOETS LEZEN B1  \nTijdsduur: 65 min  \n \nNaam: _____________________  \nGroep: ____________________    Score: ________ / 20   Voldoende : 15/20  \n \n \nB1 Toets gebaseerd op Staatsexamen I – Lezen – 2024  \n \nBij deze oefentoets Lezen B1 en de echte e...",
+    "content_length": 29506,
+    "created_at": "2026-06-03T07:09:56.785633+00:00",
+    "updated_at": "2026-06-03T07:11:17.034130+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260603_090956_64681b3b",
+    "metadata": {
+      "processing_start_time": 1780470600,
+      "processing_end_time": 1780470677
+    }
+  },
+  "dup-030be758855b02eb9dcd15cf76b6b68e": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-a4bfb6adf966a8a4b28e6929877d62c6",
+    "content_length": 29506,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-06-03T07:10:00.156753+00:00",
+    "updated_at": "2026-06-03T07:10:00.156756+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260603_091000_ce90bd26",
+    "error_msg": "Content already exists. Original doc_id: doc-a4bfb6adf966a8a4b28e6929877d62c6, Status: processing",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-a4bfb6adf966a8a4b28e6929877d62c6",
+      "original_track_id": "insert_20260603_090956_64681b3b"
+    }
+  }
+}

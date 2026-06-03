@@ -28,9 +28,24 @@ class RAGAdapter(ABC):
     def query(self, query: str) -> str:
         pass
 
+class CachedRAGAdapter(RAGAdapter):
+    def __init__(self, adapter: RAGAdapter):
+        self._adapter = adapter
+        self._cache = {}
+    def index_document(self, pdf_path: str) -> None:
+        self._cache.clear()  # Clear cache when re-indexing
+        self._adapter.index_document(pdf_path)
+    def query(self, query: str, **kwargs) -> str:
+        cache_key = (query, frozenset(kwargs.items()))
+        if cache_key in self._cache:
+            return self._cache[cache_key]
+        result = self._adapter.query(query, **kwargs)
+        self._cache[cache_key] = result
+        return result
+
 class AutoLightRAGAdapter(RAGAdapter):
-    def __init__(self):
-        self.light_adapter = LightRAGAdapter()
+    def __init__(self, provider="ollama"):
+        self.light_adapter = LightRAGAdapter(provider=provider)
 
     def index_document(self, pdf_path: str) -> None:
         self.light_adapter.index_document(pdf_path)
@@ -45,19 +60,23 @@ class AutoLightRAGAdapter(RAGAdapter):
             return self.light_adapter.query(question, mode = "hybrid")
 
 class LightRAGAdapter(RAGAdapter):
+    def __init__(self, provider="ollama"):
+        self.provider = provider
+
     def index_document(self, pdf_path):
-          subprocess.run(["uv", "run", "python", "lightrag_worker.py", "index", pdf_path])
+          subprocess.run(["uv", "run", "python", "lightrag_worker.py", "--provider", self.provider, "index", pdf_path])
 
     def query(self, question, mode="hybrid"):
           result = subprocess.run(
-              ["uv", "run", "python", "lightrag_worker.py", "query", question, "--mode", mode],
+              ["uv", "run", "python", "lightrag_worker.py", "--provider", self.provider, "query", question, "--mode", mode],
               capture_output=True, text=True
           )
           return result.stdout.strip() or "No relevant information found."
 
 class BasicRAGAdapter(RAGAdapter):
     model = SentenceTransformer(EMB_MODEL_NAME)
-    def __init__(self):
+    def __init__(self, provider="ollama"):
+        self.provider = provider
         self.index = None
         self.all_chunks = []
         self.top_k = 3
@@ -73,7 +92,7 @@ class BasicRAGAdapter(RAGAdapter):
             return "No documents indexed yet. Please upload and index a PDF first."
         query_embedding = self.model.encode([query]).astype("float32")
         _distances, indices = self.index.search(query_embedding, self.top_k)
-        return ask_llm(query, [self.all_chunks[i] for i in indices[0] if i < len(self.all_chunks)])
+        return ask_llm(query, [self.all_chunks[i] for i in indices[0] if i < len(self.all_chunks)], provider=self.provider)
 
     def _chunk_text(self, text: str, chunk_size: int = CHUNK_SIZE, overlap: int = CHUNK_OVERLAP) -> list[str]:
         words = text.split()
