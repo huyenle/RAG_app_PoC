@@ -1,10 +1,9 @@
 import os
 import pickle
 import subprocess
-
+from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
-from sentence_transformers import SentenceTransformer
 from classify_questions import classify_questions
 from abc import ABC, abstractmethod
 from llm import ask_llm

@@ -62,6 +62,8 @@ if __name__ == "__main__":
             llm_model_name=os.getenv("GEMINI_MODEL", "gemini-2.0-flash") if args.provider == "gemini" else os.getenv("OLLAMA_MODEL", "llama3"),
             embedding_func=embed_func, # create embeddings for query and documents
             default_llm_timeout=600,
+            llm_model_kwargs={"think": False} if args.provider == "ollama" else {},
+            llm_model_max_async=2,
         )
     import asyncio
     asyncio.run(rag.initialize_storages())
